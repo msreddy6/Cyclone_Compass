@@ -26,9 +26,3 @@ Supports **full CRUD operations**, secure **role-based dashboards**, and scalabl
 - 🧑‍💻 Admin dashboards for content & user management  
 - ⚡ Real-time updates with optimized APIs  
 - 📱 Responsive design for mobile & desktop  
-
-# Install dependencies
-npm install
-
-# Run locally
-npm run dev
