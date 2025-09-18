@@ -27,21 +27,6 @@ Supports **full CRUD operations**, secure **role-based dashboards**, and scalabl
 - ⚡ Real-time updates with optimized APIs  
 - 📱 Responsive design for mobile & desktop  
 
----
-
-## 📸 Screenshots
-*(Add your UI screenshots here)*
-
----
-
-## 🏗️ Installation
-```bash
-# Clone the repo
-git clone https://github.com/<your-username>/cyclone-compass.git
-
-# Navigate to project
-cd cyclone-compass
-
 # Install dependencies
 npm install
 
