@@ -1,2 +1,49 @@
-# Cyclone_Compass
-Cyclone Compass is a full-stack campus portal built with the MERN stack. It offers an interactive map, dining guide, events, and e-store with CRUD operations, role-based dashboards, and REST APIs—designed to connect students with resources through a seamless, modular architecture.
+# 🌪️ Cyclone Compass | Campus Web App
+
+> A dynamic student portal built to connect campus life with technology.  
+
+## 🚀 Overview
+Cyclone Compass empowers students with:
+- 🗺️ **Interactive Campus Map** – Find buildings, services, and routes.  
+- 🍴 **Dining Guide** – Explore menus and timings in real time.  
+- 🎉 **Events Hub** – Stay updated on campus happenings.  
+- 🛒 **E-Store** – Simple browsing & purchases.  
+
+Supports **full CRUD operations**, secure **role-based dashboards**, and scalable **REST APIs**.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React + Tailwind CSS  
+- **Backend:** Node.js + Express.js  
+- **Database:** MongoDB  
+- **Architecture:** Modular design with role-based access control  
+
+---
+
+## 📂 Features
+- 🔑 Secure authentication & authorization  
+- 🧑‍💻 Admin dashboards for content & user management  
+- ⚡ Real-time updates with optimized APIs  
+- 📱 Responsive design for mobile & desktop  
+
+---
+
+## 📸 Screenshots
+*(Add your UI screenshots here)*
+
+---
+
+## 🏗️ Installation
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/cyclone-compass.git
+
+# Navigate to project
+cd cyclone-compass
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
