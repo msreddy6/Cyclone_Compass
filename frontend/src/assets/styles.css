@@ -1,0 +1,102 @@
+/* === Custom Color Palette === */
+:root {
+  --primary-deep:   #A51C30; /* a deeper Cardinal */
+  --accent-gold:    #EABE1E; /* a warmer Gold */
+  --neutral-light:  #F5F5F5; /* very light gray */
+  --neutral-dark:   #3A3A3A; /* dark charcoal for text */
+  --white:          #FFFFFF;
+}
+
+/* === Global Body === */
+body {
+  background-color: var(--neutral-light);
+  color: var(--neutral-dark);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Navbar / Header === */
+.navbar {
+    background-color: var(--primary-deep) !important;
+  }
+  
+  /* make menu items black */
+  .navbar .nav-link {
+    color: #000 !important;
+  }
+  
+  /* optional: keep hover gold accent */
+  .navbar .nav-link:hover {
+    color: var(--accent-gold) !important;
+  }
+  
+  /* brand can stay white or match links if you like: */
+   .navbar .navbar-brand { color: #000 !important; }
+  
+
+/* === Main Content Containers === */
+.container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Feature cards and testimonial cards get a light border */
+.feature-card,
+.testimonial-card {
+  background-color: var(--white);
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.feature-card:hover,
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* === Accent elements === */
+h2, .overlay h5 {
+  color: var(--primary-deep);
+}
+button.btn-primary {
+  background-color: var(--primary-deep);
+  border-color: var(--primary-deep);
+}
+button.btn-primary:hover {
+  background-color: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+/* === Footer === */
+footer {
+  background-color: var(--neutral-dark);
+  color: var(--white);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+footer a {
+  color: var(--accent-gold);
+}
+footer a:hover {
+  color: var(--white);
+}
+/* Make all h-100 cards flex-column so body can grow */
+.card.h-100 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fix the image height and crop it */
+.card-img-top {
+  width: 100%;
+  height: 200px;       /* pick the height you want for all cards */
+  object-fit: cover;
+}
+
+/* Let the card-body fill the remaining space */
+.card-body {
+  flex: 1;
+}

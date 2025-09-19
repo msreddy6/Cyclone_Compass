@@ -1,0 +1,77 @@
+/* ===== Uniform Carousel Styling ===== */
+#homeCarousel {
+    overflow: hidden;
+  }
+  
+  #homeCarousel .carousel-inner {
+    height: 400px;              /* fix every slide to 400px tall */
+  }
+  
+  #homeCarousel .carousel-item,
+  #homeCarousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #homeCarousel .carousel-item img {
+    object-fit: cover;          /* center-crop each image to fill */
+  }
+  
+  /* ===== 6-box feature grid ===== */
+  .features-grid .feature-card {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .features-grid .feature-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7);
+  }
+  .features-grid .overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .features-grid .overlay h5 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  }
+  
+  /* ===== Testimonials ===== */
+  .testimonial-card {
+    border: none;
+    background-color: #fefefe;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .avatar-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  .avatar-icon {
+    font-size: 80px;
+    color: #888;
+  }
+  .testimonial-text {
+    font-style: italic;
+    color: #555;
+  }
+  
